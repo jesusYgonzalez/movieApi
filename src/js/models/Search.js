@@ -5,6 +5,7 @@ export default class Search {
     this.query = query;
   }
 
+  //async function returns a promise
   async  getResults() {
     const key = '6ec6f1a98335d9e884a2fd4b207bafb2';
     try {
