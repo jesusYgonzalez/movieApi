@@ -3,3 +3,4 @@ export const elements = {
   searchInput: document.querySelector('.search_field'),
   searchResultList: document.querySelector('.results_list')
 };
+
