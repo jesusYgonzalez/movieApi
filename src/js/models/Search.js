@@ -1,4 +1,5 @@
 import axios from "axios/index";
+import Movie from "./Movie";
 
 export default class Search {
   constructor(query) {
@@ -17,6 +18,13 @@ export default class Search {
     }
   }
 }
+
+
+
+
+
+// 332562
+
 
 
 // tmdb 6ec6f1a98335d9e884a2fd4b207bafb2

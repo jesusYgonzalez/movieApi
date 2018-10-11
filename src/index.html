@@ -14,17 +14,20 @@
 
     <div id="container">
         <div id="header">
+            <h1 id="titleHeader">Welcome to the movie API app!</h1>
             <form class="search">
-            <h1 id="titleHeader">The movie api app</h1>
-                <input type="text" class="search_field" placeholder="search for your favorite movie!">
+                <input type="text" name="movieName" required class="search_field"
+                       placeholder="search for your favorite movie!">
                 <button class="search_btn button">Enter</button>
             </form>
         </div>
 
-
         <div class="results">
             <ul class="results_list"></ul>
+            <div class="showButtons"></div>
         </div>
+        <div class="movieDetails"></div>
+
     </div>
 </body>
 </html>
